@@ -1,0 +1,63 @@
+<head>
+<title>Janata Bank PLC.-বাংলা কনভার্টার</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+<meta name="description" content=" এই ওয়েবসাইটে আপনি বিজয় থেকে ইউনিকোড বা ইউনিকোড থেকে বিজয় ফন্টে লেখা কনভার্ট করতে পারবেন, এবং বিজয় বা ইউনিকোড যেকোন বাংলার যুক্তবর্ণ ভেঙ্গে গেলে ঠিক করতে পারবেন।" />
+<meta http-equiv="developer" content="Developed By: Md. Mizanur Rahman, SO-IT, Janata Bank PLC." />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="files/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<script src="js/common.js"></script>
+<script src="js/converter.js"></script>
+<script src="js/rconverter.js"></script>
+<script src="js/layout.js"></script> 
+<script src="js/engine.js"></script>
+<script src="js/fontfix.js"></script>
+
+<div class="clear" style="margin: 0 0 0px 0"></div>
+
+	<div style="margin: 0px 10px 0 10px; padding: 0px 5px 0px 5px; float:left; ">
+   <img style="max-width: 100%; height: auto;" src="images/jbbnlogos.png" alt="BanklogoMoto">
+	</div>
+
+	<div style="position: relative; margin: 20px 10px 0 10px; ">
+   	<h2 class="bnh" style="text-align: left; margin: 10px 5px 0px 10px; "> বিজয়-ইউনিকোড কনভার্টার </h2>
+   	<p class="bnp" style="text-align: left;"> এই ওয়েবসাইটে আপনি বিজয় থেকে ইউনিকোড বা ইউনিকোড থেকে বিজয় ফন্টে লেখা কনভার্ট করতে পারবেন এবং কনভার্ট করার পর বিজয় বা ইউনিকোড যেকোন বাংলা ফন্টের যুক্তবর্ণ ভেঙ্গে গেলে বা যুক্তবর্ণে সমস্যা থাকলে তা ঠিক করতে পারবেন। </p>
+	</div>
+
+
+<div class="clear" style="margin: 0 0 10px 0"></div>
+
+<div style="margin: 10px 10px 0 10px;">
+	<div style="padding: 5px 5px 0 5px" >		
+		
+		<textarea id="bm" name="bm" class="textarealeft persisted-text" name="index1" placeholder="বিজয় কি-বোর্ডের লেখা এখানে পেস্ট করুন" style="width: 100%; height: 250px; margin: 0 0 0 0; padding: 5px; font-size: 18px; font-family: GangaSagarMJ"></textarea>
+
+		<div class="clear" style="margin: 10px 0px"></div>
+
+		<input type="button" value="" onclick="updates()" class="fix_bijoy">
+		<input type="button" value="" class="copy_bijoy">
+    	<input type="button" id="db" name="ea" onclick="cB('bm');" value="" class="unicode_button">
+    	<input type="button" onclick="clearContent('bm'); clearContent('eZ');" value="" class="reset_button">
+    	<input type="button" id="dc" name="eF" onclick="ck('bm');" value="" class="bijoy_button">
+    	<input type="button" value="" class="copy_unicode">
+    	<input type="button"value="" onclick="update()" class="fix_unicode">
+	
+		<div class="clear" style="margin: 10px 0px"></div>
+	
+		<textarea onkeypress="return dg(event);" id="eZ" name="eZ" onkeydown="return dn(event);" class="textarearight persisted-text" name="index2" placeholder="ইউনিকোড কি-বোর্ডের লেখা এখানে পেস্ট করুন" style="width: 100%; height: 250px; margin: 0 0 0 0; padding: 5px; font-size: 18px; font-family: Solaimanlipi;"></textarea>
+
+<script type="text/javascript">
+	var copyTextareaBtn=document.querySelector(".copy_unicode");
+copyTextareaBtn.addEventListener("click",function(e){document.querySelector(".textarearight").select(),document.execCommand("copy")&&(alert("Unicode Text Copy Successful."),$temp.remove())});
+var copyTextareaBtns=document.querySelector(".copy_bijoy");
+copyTextareaBtns.addEventListener("click",function(e){document.querySelector(".textarealeft").select(),document.execCommand("copy")&&(alert("Bijoy Text Copy Successful."),$temp.remove())});
+</script>
+<div class="clear" style="margin: 10px 0px"></div>
+<div class="copyright row justify-content-center">
+<p>Copyright © Md. Mizanur Rahman, SO-IT, Janata Bank PLC. All Rights Reserved.</p>
+</div>
+</body>
+</html>

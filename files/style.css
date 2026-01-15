@@ -1,0 +1,179 @@
+@font-face {font-family: 'SolaimanLipi'; src: local('SolaimanLipi'), url(../files/solaimanlipi_normal.woff) format('woff');}
+@font-face {font-family: 'GangaSagarMJ'; src: local('GangaSagarMJ'), url(../files/GangaSagarMJ.woff) format('woff');}
+@font-face {font-family: 'Yanone Kaffeesatz'; src: local('Yanone Kaffeesatz Regular'), url(../files/Yanone.woff) format('woff');}
+@font-face {font-family: 'Courgette';  src: local('Courgette'), url(../files/Courgette.woff) format('woff');}
+@font-face {font-family: 'SutonnyMJ';  src: local('SutonnyMJ'), url(../files/SUTOM.woff) format('woff');}
+@font-face {font-family: 'SolaimanLipi';  src: local('SolaimanLipi'), url(../files/SolaimanLipi.woff) format('woff');}
+@charset "utf-8";
+/*======================================	
+	Unicode to Bijoy 
+    Bijoy to Unicode
+    Bangla Converter By
+	Md. Mizanur Rahman,
+	SO-IT, Janata Bank PLC.
+	01869214199
+=======================================*/
+body{
+	text-align:center;
+	font-family: Helvetica, SolaimanLipi, Nikosh, NikoshBAN, NikoshGrameen, NikoshLight, NikoshLightBan, Sonar Bangla, Bangla, AdorshoLipi;
+	font-size:15px;
+	background-color: #D9ECF3;
+	margin: 0;
+	padding:  0;
+}
+.clear {
+	clear: both;
+	}
+
+*{	
+	margin: 0; 
+	padding: 0;
+}
+
+
+.bn {
+		font-family: SolaimanLipi;
+		font-size:16px;
+		color: #0099cc;
+		text-shadow: 0.5px 0.5px 1px black;
+	}
+
+.bnh {
+        font-family: SolaimanLipi;
+        font-size:44px;
+        color: #0099cc;
+        text-shadow: 0.5px 0.5px 1px #0099cc;
+    }
+
+.bnp {
+        font-family: SolaimanLipi;
+        font-size:16px;
+        color: #000;
+        text-shadow: 0.5px 0.5px 1px #000;
+    }
+
+.bijoy_button {
+    width: 207px;
+    height: 40px;
+    /*border-radius: 5px;*/
+    border: none;
+    background: url("../images/BUP.png") no-repeat
+}
+.bijoy_button:hover {
+    width: 207px;
+    height: 40px;    
+    cursor: pointer;
+    cursor: hand;
+    background: url("../images/BUP.png") 0 -40px no-repeat
+}
+.unicode_button {
+    width: 206px;
+    height: 40px;
+    /*border-radius: 5px;*/
+    border: none;
+    background: url("../images/UBP.png") no-repeat
+}
+.unicode_button:hover {
+    width: 206px;
+    height: 40px;
+    cursor: pointer;
+    cursor: hand;
+    background: url("../images/UBP.png") 0 -40px no-repeat
+}
+
+.reset_button {
+    width: 173px;
+    height: 40px;
+    /*border-radius: 5px;*/
+    border: none;
+    background: url("../images/CLP.png") no-repeat
+}
+.reset_button:hover {
+    width: 173px;
+    height: 40px;
+    cursor: pointer;
+    cursor: hand;
+    background: url("../images/CLP.png") 0 -40px no-repeat
+}
+
+.copy_bijoy {
+    width: 124px;
+    height: 40px;
+    /*border-radius: 5px;*/
+    border: none;
+    background: url("../images/CBP.png") no-repeat
+}
+.copy_bijoy:hover {
+    width: 124px;
+    height: 4173   cursor: pointer;
+    cursor: hand;
+    background: url("../images/CBP.png") 0 -40px no-repeat
+}
+.copy_unicode {
+    width: 155px;
+    height: 40px;
+    /*border-radius: 5px;*/
+    border: none;
+    background: url("../images/CUP.png") no-repeat
+}
+.copy_unicode:hover {
+    width: 155px;
+    height: 40px;
+    cursor: pointer;
+    cursor: hand;
+    background: url("../images/CUP.png") 0 -40px no-repeat 
+} 
+
+.fix_bijoy {
+    width: 160px;
+    height: 40px;
+    /*border-radius: 5px;*/
+    border: none;
+    background: url("../images/FBP.png") no-repeat
+}
+.fix_bijoy:hover {
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    cursor: hand;
+    background: url("../images/FBP.png") 0 -40px no-repeat
+}
+
+.fix_unicode {
+    width: 191px;
+    height: 40px;
+    /*border-radius: 5px;*/
+    border: none;
+    background: url("../images/FUP.png") no-repeat
+}
+.fix_unicode:hover {
+    width: 191px;
+    height: 40px;
+    cursor: pointer;
+    cursor: hand;
+    background: url("../images/FUP.png") 0 -40px no-repeat 
+}
+
+.copyright {
+  background: #0099cc;
+  padding: 5px;
+  text-align: center;
+}
+.justify-content-center {
+  -ms-inline-flex-pack: center;
+  justify-content: center;
+}
+
+.row {
+  display: -ms-inline-flexbox;
+  
+  -ms-inline-flex-wrap: wrap;
+  inline-flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.copyright p {
+  color: #fff;
+  margin-top: 5px;
+ margin-bottom: 5px;
+}
